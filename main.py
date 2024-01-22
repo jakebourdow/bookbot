@@ -12,7 +12,7 @@ def main():
     for item in chars_sorted_list:
         if not item["char"].isalpha():
             continue
-        print(f"The {item["char"]} charecter was found {item["num"]} times")
+        print(f"The {item['char']} charecter was found {item['num']} times")
 
 
     print("--- End report ---")
